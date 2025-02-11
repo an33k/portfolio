@@ -25,7 +25,7 @@ const Contact = () => {
         </p>
         </div>
         <div className='flex flex-col gap-8'>
-        <Link className='font-serif font-semibold inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2'  href={'/cv/MdKhalidHossainKhanAneekResume.pdf'}  target="_blank"  rel="noopener noreferrer" locale={false} download>My CC<MoveUpRight className="ml-2 h-4 w-4" /></Link>
+        <Link className='font-serif font-semibold inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2'  href={'/cv/MdKhalidHossainKhanAneekResume.pdf'}  target="_blank"  rel="noopener noreferrer" locale={false} download>My CV<MoveUpRight className="ml-2 h-4 w-4" /></Link>
         <Button onClick={handleMailClick} variant='default' className='font-serif font-semibold'>Let&apos;s Connect <MoveUpRight className="ml-2 h-4 w-4" /></Button>
         </div>
         </div>
